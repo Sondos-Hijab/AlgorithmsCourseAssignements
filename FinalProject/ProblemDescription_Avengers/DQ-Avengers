@@ -1,0 +1,25 @@
+The problem is that Vibranium is a very rare metal and it only exists in Wakana (a country in Africa). Luckily, the king of Wakanda T’Challa (Black Panther) is a member of the Avengers and so he is ready to offer them all the Vibranium reserves they have. In addition to that, King T’Challa will utilize the advanced Wakandian technology to create Vibranium weapons. Using this technology Stark Industries was able to create special Vibranium weapons. These weapons come in special containers. Each of these containers has an unbounded number of weapons of different types (you can take as much weapons from any container as you want). Each weapon inside the container has a cost (how much Vibranium is required for its creation) and a power rating associated with it (how powerful the weapon is). The Avengers have to decide wisely on what weapons to create so as to maximize the combined total power of all the weapons while using as little Vibranium as possible. Note that the container itself is made of Vibranium and it costs a certain amount of it to be created.
+
+Input Format
+
+c w v (c: no of containers, w: no of weapons in each container, v : total amount of Vibranium available for creating the weapons) - c intergers specifying cost of creating containers (from container 1 to container c) - c*w numbers specifying cost of weapon j from container i - c*w numbers denoting the rating of weapon j from container i
+
+Constraints
+
+c, w, and v are all integers
+
+Output Format
+
+The maximum total possible power of the weapons
+
+Sample Input 0
+
+2 4 25
+2 1
+5 3 4 4
+2 1 3 5
+2 9 3 7
+5 2 6 5
+Sample Output 0
+
+65
