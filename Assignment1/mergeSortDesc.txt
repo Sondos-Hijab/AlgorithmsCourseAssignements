@@ -1,0 +1,25 @@
+Merge Sort algorithm
+Implement Merge algorithm to sort an integer array in ascending order, and try to make it as fast as possible.
+
+Comment Your Name And Registration Number As The First Line In The Code
+You are prohibited form using the built in functions of any language
+Your Code will be Reviewed to prevent any cheating
+Input Format
+
+First line: the size of the array
+Second line: the array to be sorted(numbers seperated by spaces)
+Constraints
+
+-
+
+Output Format
+
+output between two brackets and each number seperated by a coma.
+
+Sample Input 0
+
+5
+5 4 3 2 1
+Sample Output 0
+
+[1,2,3,4,5]
